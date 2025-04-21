@@ -42,7 +42,16 @@ headers = {
 }
 # 用户list
 users = {
-    
+    'login_params: {
+        'openid': '',
+        'studentno': '',
+        'time': ''
+    },
+    'body_params': {
+        'address': '',
+        'locationX': '',
+        'locationY': ''
+    }
 }
 
 
