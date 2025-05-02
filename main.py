@@ -14,7 +14,7 @@ def send_email(subject, content):
     message['To'] = Header('Allen', 'utf-8')
     message['Subject'] = Header(subject, 'utf-8')
 
-    smtp_server = 'smtp.126.com'
+    smtp_server = ''
     smtp_port = 465
     smtp_username = ''
     smtp_authorization_code = ''
